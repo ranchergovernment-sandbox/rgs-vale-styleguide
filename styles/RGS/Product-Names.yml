@@ -1,0 +1,10 @@
+---
+extends: substitution
+message: Consider using '%s' instead of '%s'
+level: warning
+ignorecase: false
+swap:
+  "([Rr]ancher( [Mm][Cc][Mm])?)": RGS Manager
+  "[Ll]onghorn": RGS Storage
+  "[Nn]eu[Vv]ector": RGS Security
+  "[Hh]arvester": Harvester Government
