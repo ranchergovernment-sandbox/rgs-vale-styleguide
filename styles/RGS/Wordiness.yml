@@ -2,7 +2,7 @@ extends: substitution
 message: "Consider using '%s' instead of '%s'"
 link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-webwriting.html#sec-writing-global
 ignorecase: true
-level: warning
+level: suggestion
 swap:
   (?:as of late|of late): lately
   (?:are)? indicative of: reveal, show, suggest
