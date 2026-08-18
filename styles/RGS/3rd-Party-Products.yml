@@ -7,5 +7,6 @@ action:
   name: replace
 swap:
   Nvidia: NVIDIA
+  amd|Amd: AMD
   xen|XEN: Xen
   velero: Velero
