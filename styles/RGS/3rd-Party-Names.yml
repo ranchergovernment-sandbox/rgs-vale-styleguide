@@ -1,0 +1,33 @@
+extends: substitution
+message: "Use an entity or '%s' instead of '%s'."
+link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
+level: warning
+ignorecase: false
+action:
+  name: replace
+swap:
+  amd|Amd: AMD
+  ARM: Arm®|Advanced RISC Machines
+  B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
+  Common UNIX Printing System|common Unix printing system|C\.U\.P\.S|cups|Cups: Common Unix Printing System|CUPS
+  cve: CVE|Common Vulnerabilities and Exposures|security issue
+  ipf: IA-64|ia64
+  IPV4|IP v4: IPv4
+  IPV6|IP v6: IPv6
+  K\.?D\.?E\.?(?:\sDesktop\sEnvironment)?: KDE
+  KANIDM|kanidm: Kanidm
+  KDUMP: Kdump
+  NFS file system|N\.F\.S\.|Nfs: NFS|Network File System
+  Nvidia: NVIDIA
+  POWER8: ppc64|IBM Power|ppc64le|POWER
+  PXE Boot|pixie boot: PXE|Preboot eXecution Environment|PXE boot
+  RISC V|risc-v|Risc v|Risc V|Risc-V: riscv64|RISC-V
+  Rpm|R\.P\.M\.: Redhat Package Manager|RPM|RPM Package Manager
+  scsi|S\.C\.S\.I\.|Scsi: SCSI|Small Computer System Interface
+  SSH Shell|SSH shell: Secure Shell Protocol|SSH
+  symlink: symbolic link|soft link
+  System 500|system d|systemD|Systemd|System D: systemd
+  tar-ball|tar ball: TAR archive|.tar|tarball
+  velero: Velero
+  xen|XEN: Xen
+  XWS: X Window System

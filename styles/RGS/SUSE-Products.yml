@@ -6,6 +6,8 @@ ignorecase: false
 action:
   name: replace
 swap:
+  Business Critical Linux|business critical Linux: business-critical Linux
+  Business-Critical Linux: BCL|Business Critical Linux
   D-Installer|DInstaller|Deinstaller: Agama
   kiwi|Kiwi: KIWI
   Language Stack SLE BCI|Language Stack BCI: Development Stack SLE BCI
@@ -22,14 +24,15 @@ swap:
   SLES on IBM Z and LinuxONE|SLES-Z|SUSE Linux Enterprise Server on IBM Z and LinuxONE|SUSE Linux Enterprise Server for z Systems and LinuxONE: SUSE Linux Enterprise Server for IBM Z and LinuxONE|SLES for Z and LinuxONE
   SLES-AMD/Intel: SLES on AMD/Intel|SUSE Linux Enterprise Server on AMD/Intel
   SLES-ES: SUSE Linux Enterprise Server Subscription with Expanded Support
-  SleS: SUSE Linux Enterprise Server|SUSE® Linux Enterprise Server|SLES
   SUMA-Retail|SUMA 4 Retail|SUSE Manager 4 Retail: SUMA for Retail|SUSE Manager for Retail
   SUSE Linux Cloud|SUSE Cloud: SUSE OpenStack Cloud|SOC
   SUSE Linux Enterprise Server for Arm|SLES-Arm: SUSE Linux Enterprise Server on Arm|SLES on Arm
   SUSE Linux Enterprise Server for High Availability Extension|SLE-HA|SUSE Linux Enterprise High Availability: SUSE Linux Enterprise High Availability Extension|SLE HA
   SUSE Linux Enterprise Server for POWER|SLES-POWER: SLES on POWER|SUSE Linux Enterprise Server on POWER|SUSE Linux Enterprise Server on IBM POWER
   SUSE Linux Enterprise Server for SAP Applications|SLES for SAP Applications|SLES-SAP|SLES4SAP: SLES for SAP|SUSE® Linux Enterprise Server for SAP® applications|SLES for SAP applications|SUSE Linux Enterprise Server for SAP applications
+  #SUSE Linux Enterprise Storage: Longhorn
   SUSE partner portal: SUSE One partner portal
-  SUSE-CaaSP: SUSE CaaS Platform
   SUSE-CAP: SUSE Cloud Application Platform
+  SUSE-CaaSP: SUSE CaaS Platform
+  SleS: SUSE Linux Enterprise Server|SUSE® Linux Enterprise Server|SLES
   yast2|yast|YaST2|Yast|YAST2|YAST: YaST|Yet another Setup Tool
