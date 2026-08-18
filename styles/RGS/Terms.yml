@@ -1,41 +1,111 @@
 extends: substitution
-message: Consider using '%s' instead of '%s'
+message: "Consider using '%s' instead of '%s'."
 link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
+level: warning
 ignorecase: false
-nonword: true
-level: error
 action:
   name: replace
 swap:
+  (?<!\S)sd|(?<!\S)SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
+  (?<!cloud\s+?)native: built-in
   (?<!dm:)\b[Uu]rl\b: URL
-  Amd: AMD
-  Bci: BCI
+  abort|terminate|kill: close|cancel|stop|end|force quit|exit
+  activation key|activation code: registration code
+  addon|addOn|AddOn|add on: add-on|software add-on
+  admin(?!\S): administrator
+  autologin|auto-login: auto login
+  back door: backdoor|trap door|wormhole
+  back end|backend: back-end
+  baremetal|bare-metal: bare metal
+  black hat hacker: unethical hacker|unethical attacker
+  blacklist: blocklist|denylist|ignorelist
+  bootdisk|boot-disk|boot disc: boot disk
+  bootloader|boot-loader: boot loader
+  carrier-grade: carrier grade|carrier class
+  ChangeLog|change-log|change log: changelog
+  chip-set|chip set: chipset
+  Chroot-script: chroot script
+  cloud-native: cloud native
+  cold plug|cold-plug|coldadd|coldswap: coldplug
+  cold-plugging|cold plugging|coldswapping|coldadding: coldplugging
+  Command Line Interface: CLI|command-line interface
   command-line(?=,|:|;): command line
-  Digikam|DigiKam|digikam|Digicam|digiCam|digicam: digiKam
+  config(?!ure|uration|uring): configuration
+  Containers-as-a-Service: Containers as a Service|CaaS
+  coredump: core dump|memory dump|system dump
+  crashdump: crash dump
+  dialog box: dialog
+  drop(?!-down|-in): remove
+  dummy value: sample value|placeholder value
   E-book(?:s)|E-book(?:s)|Ebook(?:s)|eBook(?:s)|electronic book(?:s)|ebook(?:s): e-book
   E-mail(?:s)|E-mail(?:s)|Email(?:s)|eMail(?:s)|electronic mail(?:s)|email(?:s): e-mail
   E-PUB|e-PUB|e-Pub|EPub|Epub|ePUB|ePub: EPUB
   EXT3|EXT 3|Ext 3|Ext-3|ext 3|ext-3|ext3: Ext3
   EXT4|EXT 4|Ext 4|Ext-4|ext 4|ext-4|ext4: Ext4
+  far-edge: Far edge
+  filename|file-name: file name
+  filesystem hierarchy standard|file system hierarchy standard|File system Hierarchy Standard: FHS|Filesystem Hierarchy Standard
+  filesystem|file-system: file system
   Fpga: FPGA
-  Gimp|gimp: GIMP
-  GIT: Git
-  Gnome|gnome: GNOME
-  IP v6|IPV6|Ipv6: IPv6
-  IPSEC|Ipsec: IPsec
-  Linux mint: Linux Mint
+  frame-buffer|frame buffer: framebuffer
+  front end|frontend: front-end
+  Gen-ai|gen-ai|Gen-AI|gen-AI|genAI: GenAI|generative artificial intelligence|generative AI
+  geo-cluster|geocluster: geo cluster|geographic cluster|geographically dispersed cluster|multi-site cluster
+  Golden Master: Gold Master|GM
+  Gpu: GPU|graphics processing unit
+  grandfathered: legacy status
+  hamburger menu: three-line menu
+  hardlink|hard-link: hard link
+  hostname: host name
+  hot-plug|hotadd: hotswap
+  hotadding|hot-plugging: hotswapping
+  hotadding|hot-plugging: hotswapping
+  hotadd|hot-plug|hot plug: hotplug
+  howto: how-to
+  initialization script|initscript|init-script: init script
+  KABI: kABI|Kernel Application Binary Interface
+  kebab menu: three-dot menu
+  kernelspace|kernel-space: kernel space
+  life-cycle|life cycle: lifecycle
+  list field: list|list box
   LiveCD|live-CD: live CD
   LiveDVD|live-DVD: Live DVD
-  MacOS|Mac OS|mac OS: macOS
-  Man page|Man-page|man page|man-page|manpage: man page
-  Php: PHP
-  POSTSCRIPT|Postscript|postscript: PostScript
-  RAM memory|Ram|(?<=\s)ram: RAM
+  man hours: engineer hours|management hours
+  manual page: man page
+  master branch: main branch
+  master-slave|master/slave: parent/child|leader/follower|origin/clone|primary/secondary|leader/peer|parent/port|client/server
+  mountpoint|mount-point: mount point
+  multi-user|multi user: multiuser
+  name space|name-space: namespace
+  nameserver|name-server: name server
+  near-edge: Near edge
+  NIS information service|N\.I\.S\.|Nis: NIS|Network information system
+  non-open source software: closed-source software
+  on premise|on prem|on-prem|on-premise: on-premises
+  Platform as a Service: PaaS|Platform-as-a-Service
+  plug in|plugin: plug-in
+  Problem Temporary Fix: PTF|Program Temporary Fix
+  pull-down\s+menu|drop-down\s+list\s+box|drop-down\s+menu|drop-down(?!\s+list)|dropdown: drop-down list
+  quickstart: quick start
+  RAM memory|R\.A\.M\.: random access memory|RAM
   Read-me(?:s)|Readme(?:s)|read-me(?:s)|readme(?:s): README
-  SAMBA|samba: Samba
+  run-level|run level: runlevel
+  run-time: runtime|run time
+  sanity check|sanity test: quick check|confidence check|coherence check
+  shell tool|command line tool: command-line tool|CLT
+  slaves: workers
   SOC(?!\w): SoC
-  Sql: SQL
-  SQlite|Sqlite: SQLite
-  SuSE|SuSe|Suse: SUSE
-  SysVinit|SysV init|system 5 init: System V init
+  supported on a best effort basis|best effort support|best-effort support: commercially reasonable support
+  synch: synchronization|sync
+  task-bar|task bar: desktop panel|panel|bottom edge panel|bottom panel|taskbar
+  technical preview|tech preview: technology preview
+  tiny-edge: Tiny edge
+  v12n: virtualization
+  virtualisation platform: virtualization platform
+  Virtualized Local Area Network: VLAN|Virtual Local Area Network
+  webmaster: web product owner
+  white hat hacker: ethical hacker
+  white-space|white space: whitespace
+  whitebox: clear box|open box
+  whitelist: safe list|approved list|allowlist
   Wi fi|Wi-fi|Wifi|WLAN|wlan: Wi-Fi

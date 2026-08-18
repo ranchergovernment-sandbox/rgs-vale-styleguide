@@ -8,10 +8,12 @@ action:
 swap:
   Business Critical Linux|business critical Linux: business-critical Linux
   Business-Critical Linux: BCL|Business Critical Linux
+  Bci: BCI
   D-Installer|DInstaller|Deinstaller: Agama
   kiwi|Kiwi: KIWI
   Language Stack SLE BCI|Language Stack BCI: Development Stack SLE BCI
   MicroOS Server: MicroOS
+  SuSE|SuSe|Suse: SUSE
   open-SUSE|open SUSE|Open-SUSE|Open SUSE: openSUSE
   SLE Desktop|SLE Entreprise Desktop|SLE Linux Desktop|Sled|sled|S\.L\.E\.D\.|SleD: SLED|SUSE Linux Enterprise Desktop
   SLE Enterprise|SLE Linux|sle|Sle|S\.L\.E\.: SUSE Linux
