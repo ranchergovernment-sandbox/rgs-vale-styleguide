@@ -6,8 +6,8 @@ level: error
 swap:
   32 Bit|32 bit|32-Bit|32Bit|32bit: 32-bit
   64 Bit|64 bit|64-Bit|64Bit|64bit: 64-bit
-  check-box(?:s)|checkbox(?:s): check box
   check list(?:s)|check-list(?:s): checklist
+  check-box(?:s)|checkbox(?:s): check box
   check-mark(?:s)|checkmark(?:s)|tick(?:s)|tick mark(?:s): check mark
   chip set(?:s)|chip-set(?:s): chipset
   code stream(?:s): codestream
