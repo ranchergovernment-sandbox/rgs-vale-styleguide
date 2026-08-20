@@ -14,6 +14,7 @@ swap:
   addon|addOn|AddOn|add on: add-on|software add-on
   admin(?!\S): administrator
   amd|Amd: AMD
+  airgap: Air Gap|air gap
   ARM: Arm®|Advanced RISC Machines
   autologin|auto-login: auto login
   B\.T\.R\.F\.S|Better FS|BTRFS|btrfs: Btrfs
