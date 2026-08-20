@@ -3,3 +3,5 @@ message: "'%s' is a misspelling."
 level: error
 dictionaries:
   - en_US
+  - SUSE
+  - RGS

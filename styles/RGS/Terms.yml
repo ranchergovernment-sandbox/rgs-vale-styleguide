@@ -58,6 +58,7 @@ swap:
   geo-cluster|geocluster: geo cluster|geographic cluster|geographically dispersed cluster|multi-site cluster
   Gimp|gimp: GIMP
   GIT: Git
+  nginx|Nginx: NGINX
   Gnome|gnome: GNOME
   Golden Master: Gold Master|GM
   Gpu: GPU|graphics processing unit
@@ -66,7 +67,6 @@ swap:
   hardlink|hard-link: hard link
   hostname: host name
   hot-plug|hotadd: hotswap
-  hotadding|hot-plugging: hotswapping
   hotadding|hot-plugging: hotswapping
   hotadd|hot-plug|hot plug: hotplug
   howto: how-to
