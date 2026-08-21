@@ -4,6 +4,8 @@
 
 
 # Summary  
+__Source:__ [Spacing](../../styles/RGS/Spacing.yml)
+
 __Level:__ Error  
 
 __Purpose:__ This rule ensures that there is one, and only one, space after a sentence ending puncuation mark.

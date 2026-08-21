@@ -4,6 +4,8 @@
 
 
 # Summary  
+__Source:__ [RGS-Products](../../styles/RGS/RGS-Products.yml)
+
 __Level:__ Warning  
 
 __Purpose:__ RGS, and SUSE are renaming some products, the older names should be avoided. There are times where it is appropriate to use the older names though.

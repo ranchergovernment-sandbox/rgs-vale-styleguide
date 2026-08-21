@@ -4,6 +4,8 @@
 
 
 # Summary  
+__Source:__ [Terms-IgnoreCase](../../styles/RGS/Terms-IgnoreCase.yml)
+
 __Level:__ Error  
 
 __Purpose:__ Fixes common mispellings of words (regardless of capitalization) and offers alternatives.

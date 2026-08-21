@@ -6,6 +6,8 @@
 
 
 # Summary  
+__Source:__ [Spelling](../../styles/RGS/Spelling.yml)
+
 __Level:__ Error  
 
 ## Purpose  

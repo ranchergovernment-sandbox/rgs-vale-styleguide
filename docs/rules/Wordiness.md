@@ -4,6 +4,8 @@
 
 
 # Summary  
+__Source:__ [Wordiness](../../styles/RGS/Wordiness.yml)
+
 __Level:__ Suggestion  
 
 __Purpose:__ Suggests alternatives to common phrases that can be wordy, or redundant. 

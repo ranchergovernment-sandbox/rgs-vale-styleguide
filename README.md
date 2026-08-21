@@ -32,5 +32,5 @@ All rules are documented in the `docs/rules` directory, each rule has a severity
 
 
 # How To Use This Repository  
-
+This is a [Vale](https://vale.sh/) package, follow the [installation docs](https://docs.vale.sh/topics/installation).
  

@@ -4,6 +4,8 @@
 
 
 # Summary  
+__Source:__ [ChicagoCapitalization](../../styles/RGS/ChicagoCapitalization.yml)
+
 __Level:__ Error  
 
 __Purpose:__ This rule enforces "Chicago" style capitalization of headers. This means all headers in a file must capitalize every word, with the exception of some, like: a, an, the, and, but, or, for, nor, etc.

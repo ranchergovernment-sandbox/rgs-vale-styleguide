@@ -4,6 +4,8 @@
 
 
 # Summary  
+__Source:__ [Usage](../../styles/RGS/Usage.yml)
+
 __Level:__ Warning  
 
 __Purpose:__ This rule is similar to the "Terms" and "Terms-IgnoreCase" rules, the primary difference is this is produces a warning instead of an error. 

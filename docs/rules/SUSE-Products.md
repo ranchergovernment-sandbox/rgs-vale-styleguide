@@ -4,6 +4,8 @@
 
 
 # Summary  
+__Source:__ [SUSE-Products](../../styles/RGS/SUSE-Products.yml)
+
 __Level:__ Warning  
 
 __Purpose:__ This corrects the misspelling of SUSE products.
