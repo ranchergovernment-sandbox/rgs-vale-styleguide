@@ -1,0 +1,34 @@
+extends: substitution
+message: Use '%s' instead of '%s'
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Terms-IgnoreCase.md
+level: error
+ignorecase: true
+swap:
+  32 Bit|32 bit|32-Bit|32Bit|32bit: 32-bit
+  64 Bit|64 bit|64-Bit|64Bit|64bit: 64-bit
+  check lists?|check-lists?: checklist
+  check-box(?:es)?|checkbox(?:es)?: check box
+  check-marks?|checkmarks?|ticks?|tick marks?: check mark
+  chip sets?|chip-sets?: chipset
+  code streams?: codestream
+  loop back devices?|loop-back devices?: loopback device
+  meta data|meta-data|metadatas: metadata
+  patch-levels?|patchlevels?: patch level
+  path-names?|pathnames?: path name
+  plugins?: plug-in
+  pop ups?|popups?: pop-up
+  printer queues?|printing queues?: print queue
+  printer spoolers?|printing spoolers?: print spooler
+  scroll-bars?|scroll bars?: scrollbar
+  stand alone|standalone: stand-alone
+  status bars?|status-bars?: statusbar
+  sub director(?:y|ies)|sub-director(?:y|ies): subdirectory
+  sub menus?|sub-menus?: submenu
+  sub systems?|sub-systems?: subsystem
+  time-stamps?|timestamps?: time stamp
+  title bars?|title-bars?: titlebar
+  tool bars?|tool-bars?: toolbar
+  tool chains?|tool-chains?: toolchain
+  tool tips?|tool-tips?: tooltip
+  use-cases?|usecases?: use case
+  user-names?|usernames?: user name

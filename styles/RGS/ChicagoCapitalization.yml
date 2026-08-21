@@ -1,7 +1,0 @@
-extends: capitalization
-message: "'%s' should use title-style capitalization."
-link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/README.md
-level: error
-scope: heading
-match: $title
-style: Chicago

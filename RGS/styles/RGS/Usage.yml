@@ -1,0 +1,39 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Usage.md
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  '(?:API Console|dev|developer) key': API key
+  '(?:dev|developer|APIs) console': API console
+  '(?:OAuth\s+2(?!.0)|Oauth\s+(?!\s?2.0))': OAuth 2.0
+  'un(?:check|select)': clear
+  API explorer: APIs Explorer
+  approx\.: approximately
+  appendices: appendixes
+  authN: authentication
+  authZ: authorization
+  autoupdate: automatically update
+  content type: media type
+  data are: data is
+  firewalls: firewall rules
+  grayed-out: unavailable
+  HTTPs(?>!://): HTTPS
+  in order to: to
+  ingest: import|load
+  network IP address: internal IP address
+  (?:lower case|lower-case): lowercase
+  pre-configured: preconfigured
+  re-configure: reconfigure
+  recreate: re-create
+  regex: regular expression
+  sign into: sign in to
+  (?<!\bsingle\s+)sign-?on: single sign-on
+  some: certain
+  style sheet: stylesheet
+  (?:systemwide|system wide): system-wide
+  tablename: table name
+  (?:upper case|upper-case): uppercase
+  vs\.: versus

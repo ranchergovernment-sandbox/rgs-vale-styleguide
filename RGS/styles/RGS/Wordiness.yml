@@ -1,0 +1,113 @@
+extends: substitution
+message: "Consider using '%s' instead of '%s'"
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Wordiness.md
+ignorecase: true
+level: suggestion
+swap:
+  (?:as of late|of late): lately
+  (?:are)? indicative of: reveal, show, suggest
+  (?:the)? majority of: most
+  a little bit: a bit, a little
+  a majority of: most
+  a number of: a few, several, certain
+  add together: add
+  adversely impact: damage, hinder, impede
+  aforementioned: previously mentioned, these
+  all of: all
+  already existing: existing, current
+  are representative of: represent
+  as a means of: to
+  as far as .+ (?:am|are|is) concerned: regarding
+  as long as: if
+  as of this writing: now, currently
+  as of yet: yet, so far, to date
+  as per: per
+  as to whether: whether
+  as to: to, about
+  as yet: still, not yet
+  at a quick rate: quickly
+  at a slow rate: slowly
+  (?:at the present time|as of this writing|at the time of publication|at the current time|at this point in time): now, currently
+  be aware of the fact that: know, understand
+  because of the fact that: as, because
+  both of them: both
+  by means of: by, via
+  by the use of: using, with
+  by virtue of: because
+  by way of: by, via
+  click on: click
+  comply with: follow
+  debut of a new product: product debut
+  despite the fact that: though, even though
+  do damage to: damage
+  due to the fact that: because, since
+  during the course of: during
+  end result: result
+  factor that plays a role: factor
+  first and foremost: most importantly
+  for the duration of: during, through, for, throughout
+  for the most part: generally, usually, mostly
+  for the purpose of: for, to
+  give the opportunity to: let, allow
+  good-quality: quality
+  have an (?:effect|impact) on: affect, influence
+  help out: help
+  check and see: check
+  if and when: when, if
+  if you want to: to
+  in a similar manner: similarly
+  in a timely manner: on time, promptly, quickly
+  in accordance with: by, per, under
+  in addition: besides, also
+  in an effort to: to
+  in close proximity to: close to, near
+  in excess of: more than, over
+  in light of the fact that: because, considering
+  in many cases: often, usually
+  in order for: for
+  in order to: to
+  in regard to: about, regarding
+  in some instances: sometimes
+  in terms of: regarding
+  in the absence of: without
+  in the case of: if, when
+  in the course of: during, in, over, while
+  in the direction of: toward
+  in the event that: if
+  in the process of: during
+  indicative of: reveal, show, suggest
+  is applicable to: applies to, affects
+  is responsible for: handles, controls, causes, manages
+  it’s important to note that: notably
+  majority of: most
+  make a choice: choose, decide
+  make an effort: try
+  minor tweaks: tweaks
+  not many: few
+  not often: rarely, infrequently
+  not unless: only if
+  not unlike: like, similar to
+  notification alert: notification, alert
+  numerous: many, several, multiple
+  on account of: because
+  on the other hand: however, conversely
+  one particular: a specific, just one
+  point in time: moment, time
+  previous to: before
+  prior to: before
+  provide the ability to: let, allow
+  provided that: if
+  raise up: raise
+  readily available: accessible
+  retain the same: retain
+  send out: send
+  specific details: details
+  still remain: remain
+  tailored to fit: tailored
+  take advantage of: use
+  take into consideration: consider
+  tap on: tap
+  the way in which: how
+  trailing behind: trailing
+  with respect to: regarding, about, on, as for
+  with the exception of: except for, apart from

@@ -1,0 +1,8 @@
+extends: spelling
+message: "'%s' is a misspelling."
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Spelling.md
+level: error
+dictionaries:
+  - en_US
+  - SUSE
+  - RGS
