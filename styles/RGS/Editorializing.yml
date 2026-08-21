@@ -1,6 +1,6 @@
 extends: existence
 message: "Consider removing '%s'"
-link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-webwriting.html#sec-writing-global
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Editorializing.md
 ignorecase: true
 level: warning
 tokens:

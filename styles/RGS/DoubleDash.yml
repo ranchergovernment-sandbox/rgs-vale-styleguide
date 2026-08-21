@@ -1,6 +1,7 @@
 extends: substitution
-message: "Replace double dash with an entity."
-link: https://documentation.suse.com/style/current/html/docu_styleguide/sec-language.html#sec-dash
+message: "Consider replacing double dash with an em dash."
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/DoubleDash.md
+ignorecase: true
 level: warning
 action:
   name: replace

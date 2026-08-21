@@ -1,7 +1,9 @@
-message: "Don't use '%s' as the content of a link."
+---
+message: "Don't use 'here' as the content of a link."
 extends: existence
 ignorecase: true
-scope: raw
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Link.md
 level: error
-tokens:
-  - (?<=<link[^>]*>)here(?=</link>)
+scope: raw
+raw:
+  - \[here\]\(\S+\)

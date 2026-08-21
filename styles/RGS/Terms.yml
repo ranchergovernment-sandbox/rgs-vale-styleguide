@@ -1,10 +1,8 @@
 extends: substitution
-message: "Consider using '%s' instead of '%s'."
-link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
-level: warning
+message: Use '%s' instead of '%s'
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Terms.md
+level: error
 ignorecase: false
-action:
-  name: replace
 swap:
   (?<!\S)sd|(?<!\S)SD|solidstate drive|solid state drive|solid-state disk|solid-state disk drive|solid state disc: solid-state drive|SSD
   (?<!cloud\s+?)native: built-in
@@ -27,7 +25,6 @@ swap:
   bootloader|boot-loader: boot loader
   carrier-grade: carrier grade|carrier class
   ChangeLog|change-log|change log: changelog
-  chip-set|chip set: chipset
   Chroot-script: chroot script
   cloud-native: cloud native
   cold plug|cold-plug|coldadd|coldswap: coldplug

@@ -1,34 +1,34 @@
 extends: substitution
 message: Use '%s' instead of '%s'
-link: https://documentation.suse.com/style/current/html/docu_styleguide/app-terminology.html#sec-terminology
-ignorecase: true
+link: https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/blob/main/docs/rules/Terms-IgnoreCase.md
 level: error
+ignorecase: true
 swap:
   32 Bit|32 bit|32-Bit|32Bit|32bit: 32-bit
   64 Bit|64 bit|64-Bit|64Bit|64bit: 64-bit
-  check list(?:s)|check-list(?:s): checklist
-  check-box(?:s)|checkbox(?:s): check box
-  check-mark(?:s)|checkmark(?:s)|tick(?:s)|tick mark(?:s): check mark
-  chip set(?:s)|chip-set(?:s): chipset
-  code stream(?:s): codestream
-  loop back device(?:s)|loop-back device(?:s): loopback device
+  check lists?|check-lists?: checklist
+  check-box(?:es)?|checkbox(?:es)?: check box
+  check-marks?|checkmarks?|ticks?|tick marks?: check mark
+  chip sets?|chip-sets?: chipset
+  code streams?: codestream
+  loop back devices?|loop-back devices?: loopback device
   meta data|meta-data|metadatas: metadata
-  patch-level(?:s)|patchlevel(?:s): patch level
-  path-name(?:s)|pathname(?:s): path name
-  plugin(?:s)?: plug-in
-  pop up(?:s)|popup(?:s): pop-up
-  printer queue(?:s)|printing queue(?:s): print queue
-  printer spooler(?:s)|printing spooler(?:s): print spooler
-  scroll-bar(?:s)|scroll bar(?:s): scrollbar
+  patch-levels?|patchlevels?: patch level
+  path-names?|pathnames?: path name
+  plugins?: plug-in
+  pop ups?|popups?: pop-up
+  printer queues?|printing queues?: print queue
+  printer spoolers?|printing spoolers?: print spooler
+  scroll-bars?|scroll bars?: scrollbar
   stand alone|standalone: stand-alone
-  status bar(?:s)|status-bar(?:s): statusbar
-  sub director(?:y|ies)|sub-director(?:|ies): subdirectory
-  sub menu(?:s)|sub-menu(?:s): submenu
-  sub system(?:s)|sub-system(?:s): subsystem
-  time-stamp(?:s)|timestamp(?:s): time stamp
-  title bar(?:s)|title-bar(?:s): titlebar
-  tool bar(?:s)|tool-bar(?:s): toolbar
-  tool chain(?:s)|tool-chain(?:s): toolchain
-  tool tip(?:s)|tool-tip(?:s): tooltip
-  use-case(?:s)|usecase(?:s): use case
-  user-name(?:s)|username(?:s): user name
+  status bars?|status-bars?: statusbar
+  sub director(?:y|ies)|sub-director(?:y|ies): subdirectory
+  sub menus?|sub-menus?: submenu
+  sub systems?|sub-systems?: subsystem
+  time-stamps?|timestamps?: time stamp
+  title bars?|title-bars?: titlebar
+  tool bars?|tool-bars?: toolbar
+  tool chains?|tool-chains?: toolchain
+  tool tips?|tool-tips?: tooltip
+  use-cases?|usecases?: use case
+  user-names?|usernames?: user name
