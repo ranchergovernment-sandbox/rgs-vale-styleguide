@@ -3,7 +3,7 @@
 - [Summary](#summary)
 
 # Summary  
-__Source:__ [Contractions](../../styles/RGS/Contractions.yml)
+__Source:__ [Contractions](../../RGS/styles/RGS/Contractions.yml)
 
 __Level:__ Suggestion   
 

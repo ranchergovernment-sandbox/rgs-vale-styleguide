@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [ChicagoCapitalization](../../styles/RGS/ChicagoCapitalization.yml)
+__Source:__ [ChicagoCapitalization](../../RGS/styles/RGS/ChicagoCapitalization.yml)
 
 __Level:__ Error  
 

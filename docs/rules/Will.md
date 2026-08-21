@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Will](../../styles/RGS/Will.yml)
+__Source:__ [Will](../../RGS/styles/RGS/Will.yml)
 
 __Level:__ Suggestion  
 

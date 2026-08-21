@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Link](../../styles/RGS/Link.yml)
+__Source:__ [Link](../../RGS/styles/RGS/Link.yml)
 
 __Level:__ Error  
 

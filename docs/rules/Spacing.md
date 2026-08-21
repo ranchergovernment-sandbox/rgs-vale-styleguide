@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Spacing](../../styles/RGS/Spacing.yml)
+__Source:__ [Spacing](../../RGS/styles/RGS/Spacing.yml)
 
 __Level:__ Error  
 

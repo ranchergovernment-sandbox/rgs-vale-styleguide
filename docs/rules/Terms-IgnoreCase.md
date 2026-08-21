@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Terms-IgnoreCase](../../styles/RGS/Terms-IgnoreCase.yml)
+__Source:__ [Terms-IgnoreCase](../../RGS/styles/RGS/Terms-IgnoreCase.yml)
 
 __Level:__ Error  
 

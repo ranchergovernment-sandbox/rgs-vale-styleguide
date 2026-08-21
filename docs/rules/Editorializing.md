@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Editorializing](../../styles/RGS/Editorializing.yml)
+__Source:__ [Editorializing](../../RGS/styles/RGS/Editorializing.yml)
 
 __Level:__ Warning  
 

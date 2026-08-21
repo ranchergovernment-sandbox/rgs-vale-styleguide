@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Semicolons](../../styles/RGS/Semicolons.yml)
+__Source:__ [Semicolons](../../RGS/styles/RGS/Semicolons.yml)
 
 __Level:__ Suggestion  
 

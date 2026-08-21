@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Quotes](../../styles/RGS/Quotes.yml)
+__Source:__ [Quotes](../../RGS/styles/RGS/Quotes.yml)
 
 __Level:__ Error  
 

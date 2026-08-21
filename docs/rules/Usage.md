@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Usage](../../styles/RGS/Usage.yml)
+__Source:__ [Usage](../../RGS/styles/RGS/Usage.yml)
 
 __Level:__ Warning  
 

@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [CorporateSpeak](../../styles/RGS/CorporateSpeak.yml)
+__Source:__ [CorporateSpeak](../../RGS/styles/RGS/CorporateSpeak.yml)
 
 __Level:__ Error   
 

@@ -6,7 +6,7 @@
 
 
 # Summary  
-__Source:__ [Spelling](../../styles/RGS/Spelling.yml)
+__Source:__ [Spelling](../../RGS/styles/RGS/Spelling.yml)
 
 __Level:__ Error  
 

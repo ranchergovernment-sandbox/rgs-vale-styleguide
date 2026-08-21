@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Repetition](../../styles/RGS/Repetition.yml)
+__Source:__ [Repetition](../../RGS/styles/RGS/Repetition.yml)
 
 __Level:__ Error  
 

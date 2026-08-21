@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Wordiness](../../styles/RGS/Wordiness.yml)
+__Source:__ [Wordiness](../../RGS/styles/RGS/Wordiness.yml)
 
 __Level:__ Suggestion  
 

@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [RGS-Products](../../styles/RGS/RGS-Products.yml)
+__Source:__ [RGS-Products](../../RGS/styles/RGS/RGS-Products.yml)
 
 __Level:__ Warning  
 

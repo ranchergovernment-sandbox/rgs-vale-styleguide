@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [SUSE-Products](../../styles/RGS/SUSE-Products.yml)
+__Source:__ [SUSE-Products](../../RGS/styles/RGS/SUSE-Products.yml)
 
 __Level:__ Warning  
 

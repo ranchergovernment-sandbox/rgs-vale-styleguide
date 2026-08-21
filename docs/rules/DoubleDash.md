@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [DoubleDash](../../styles/RGS/DoubleDash.yml)
+__Source:__ [DoubleDash](../../RGS/styles/RGS/DoubleDash.yml)
 
 __Level:__ Warning  
 

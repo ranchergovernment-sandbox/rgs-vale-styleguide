@@ -4,7 +4,7 @@
 
 
 # Summary  
-__Source:__ [Terms](../../styles/RGS/Terms.yml)
+__Source:__ [Terms](../../RGS/styles/RGS/Terms.yml)
 
 __Level:__ Error  
 

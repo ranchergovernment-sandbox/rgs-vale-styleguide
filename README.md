@@ -11,26 +11,25 @@ This repository includes a Vale compatiable style package. This repository can b
 
 ## Rules  
 All rules are documented in the `docs/rules` directory, each rule has a severity level (suggestion, warning, or error), and purpose:  
-- [ChicagoCapitalization](./docs/rule/ChicagoCapitalization.md)
-- [Contractions](./docs/rule/Contractions.md)
-- [CorporateSpeak](./docs/rule/CorporateSpeak.md)
-- [DoubleDash](./docs/rule/DoubleDash.md)
-- [Editorializing](./docs/rule/Editorializing.md)
-- [Link](./docs/rule/Link.md)
-- [Quotes](./docs/rule/Quotes.md)
-- [Repetition](./docs/rule/Repetition.md)
-- [RGS-Products](./docs/rule/RGS-Products.md)
-- [Semicolons](./docs/rule/Semicolons.md)
-- [Spacing](./docs/rule/Spacing.md)
-- [Spelling](./docs/rule/Spelling.md)
-- [SUSE-Products](./docs/rule/SUSE-Products.md)
-- [Terms-IgnoreCase](./docs/rule/Terms-IgnoreCase.md)
-- [Terms](./docs/rule/Terms.md)
-- [Usage](./docs/rule/Usage.md)
-- [Will](./docs/rule/Will.md)
-- [Wordiness](./docs/rule/Wordiness.md)
+- [ChicagoCapitalization](./docs/rules/ChicagoCapitalization.md)
+- [Contractions](./docs/rules/Contractions.md)
+- [CorporateSpeak](./docs/rules/CorporateSpeak.md)
+- [DoubleDash](./docs/rules/DoubleDash.md)
+- [Editorializing](./docs/rules/Editorializing.md)
+- [Link](./docs/rules/Link.md)
+- [Quotes](./docs/rules/Quotes.md)
+- [Repetition](./docs/rules/Repetition.md)
+- [RGS-Products](./docs/rules/RGS-Products.md)
+- [Semicolons](./docs/rules/Semicolons.md)
+- [Spacing](./docs/rules/Spacing.md)
+- [Spelling](./docs/rules/Spelling.md)
+- [SUSE-Products](./docs/rules/SUSE-Products.md)
+- [Terms-IgnoreCase](./docs/rules/Terms-IgnoreCase.md)
+- [Terms](./docs/rules/Terms.md)
+- [Usage](./docs/rules/Usage.md)
+- [Will](./docs/rules/Will.md)
+- [Wordiness](./docs/rules/Wordiness.md)
 
 
 # How To Use This Repository  
 This is a [Vale](https://vale.sh/) package, follow the [installation docs](https://docs.vale.sh/topics/installation).
- 
