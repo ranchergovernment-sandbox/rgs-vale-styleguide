@@ -8,7 +8,7 @@ __Source:__ [Terms](../../RGS/styles/RGS/Terms.yml)
 
 __Level:__ Error  
 
-__Purpose:__ Fixes common mispellings of words and offers alternatives. This is very similar to the "Terms-IgnoreCase" rule. 
+__Purpose:__ Fixes common misspellings of words and offers alternatives. This is similar to the "Terms-IgnoreCase" rule. 
 
 __Invalid Examples:__  
   - amd, Amd

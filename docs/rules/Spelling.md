@@ -22,4 +22,4 @@ __en_US:__ A standard US English dictionary.
 __SUSE:__ This is taken from SUSE's Vale repository as is.
 
 
-__RGS:__  A custom dictionary for RGS to use. It contains extra words that are common place, and not caught by SUSE's dictionary. It is important to note the RGS dictonary has some words that could be considered slang, for example: "homelab".
+__RGS:__  A custom dictionary for RGS to use. It contains extra words that are common place, and not caught by SUSE's dictionary. It is important to note the RGS dictionary has certain words that could be considered slang, for example: "homelab."

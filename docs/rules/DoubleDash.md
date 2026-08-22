@@ -11,7 +11,7 @@ __Level:__ Warning
 __Purpose:__ This rule intends to push authors towards using em dashes instead of double dashes (--). An em dash is visually cleaner, and more appropriate in most written communications.
 
 __Invalid Examples:__  
-  - "--"
+  - "foo--bar"
  
 __Valid Examples:__  
-  - "&mdash;"
+  - "foo&mdash;bar"

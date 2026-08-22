@@ -8,7 +8,7 @@ __Source:__ [Terms-IgnoreCase](../../RGS/styles/RGS/Terms-IgnoreCase.yml)
 
 __Level:__ Error  
 
-__Purpose:__ Fixes common mispellings of words (regardless of capitalization) and offers alternatives.
+__Purpose:__ Fixes common misspellings of words (regardless of capitalization) and offers alternatives.
 
 __Invalid Examples:__  
   - check-box, check-boxes, checkboxes, check-boxes

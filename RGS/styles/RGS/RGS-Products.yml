@@ -6,6 +6,6 @@ level: warning
 ignorecase: false
 swap:
   "([Rr]ancher( [Mm][Cc][Mm])?)": RGS Manager
-  "[Hh]arvester": Harvester Government
+  "[Hh]arvester(?!\ Government)": Harvester Government
   "[Ll]onghorn": RGS Storage
   "[Nn]eu[Vv]ector": RGS Security

@@ -3,10 +3,11 @@
 - [RGS Vale Style Guide](#rgs-vale-style-guide)
   - [Rules](#rules)
 - [How To Use This Repository](#how-to-use-this-repository)
- 
+  - [Sample Configuration](#sample-configuration)
+
 
 # RGS Vale Style Guide
-This repository includes a Vale compatiable style package. This repository can be consumed by any author to ensure consistency in tone, and style while providing a simple spell check.
+This repository is a Vale compatible style package based off of SUSE's own package. This repository can be consumed by any author via Vale to ensure consistency in tone, and style while also providing a simple spell check. 
 
 
 ## Rules  
@@ -32,4 +33,29 @@ All rules are documented in the `docs/rules` directory, each rule has a severity
 
 
 # How To Use This Repository  
-This is a [Vale](https://vale.sh/) package, follow the [installation docs](https://docs.vale.sh/topics/installation).
+1. Follow the [Vale installation docs](https://docs.vale.sh/topics/installation).
+2. Consume this package by placing a configuration file at the top level directory. 
+3. Run `vale sync` to pull the RGS package down.
+
+
+## Sample Configuration  
+This is a minimal Vale configuration file (`.vale.ini`). This should be in the top level directory in your repository.
+```ini
+# This places the style in a .github/vale local directory. 
+# This is not needed, but does keep vale info in a hidden directory.
+StylesPath = ./.github/vale
+# This downloads the RGS style zip, this needs to come from a release, it can not come from a branch.
+Packages = https://github.com/ranchergovernment-sandbox/rgs-vale-styleguide/releases/download/v0.1.0/RGS.zip
+
+# Apply x configs to any .md file
+[*.md]
+# Apply the RGS style (this repository)
+BasedOnStyles = RGS
+```
+
+> [!NOTE]  
+> You should add the RGS vale files to your .gitignore. If you are using the above example, the following should work:  
+> ```
+> .github/vale/RGS
+> .github/vale/config/dictionaries
+> ```
